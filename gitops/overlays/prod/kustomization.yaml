@@ -1,0 +1,12 @@
+namespace: gitopsdemo-prod
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+bases:
+  - ../../base/postgres
+
+patchesStrategicMerge:
+  - postgres.yaml
+
+
